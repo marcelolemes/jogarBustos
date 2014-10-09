@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="mainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="camCurso.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAAAGAAoMgAAFgAAACgAAABAAAAAgAAAAAEAGAAAAAAAADAAAAAAAAAAAAAAAAAAAAAA
+        AAD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wDp4iTFwGDFwGDFwGDFwGDF
+        wGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDF
+        wGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDF
+        wGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGDFwGD38Az/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6/umvHwV7Nx1TRy03UzkjVz0bVz0XUzkfRy03LxlbDvmW+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7DvWXWz0Xg2jPj3C7e
+        1zfRy02/umq+uW6+uW6+uW7CvWXFwGDFwGDDvmS+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD48Avn4CfRzEy+uWy+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6/umzf2TX8
+        9AP/9wD/9wD/9wD/9wD/9wD58QnZ0z++uW2+uW7n4Cj/9wD/9wDp4iS+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD07RHOyFK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW3p4iT/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wDq4yO/umvr5CH/9wD/9wDl3iq+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7Z0kD/9wD/9wD/9wDt5R7h2jLf2Dbe2Dbh2jHp4iT37wz/9wD/9wD/9wD/9wD+9gHW0EW+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7Y0kD/9wD/9wD/9wD/9wD58Qrl3yrf2DXl3iv37w3/9wD/9wDl3ivv6Br/9wD/
+        9wDj3C6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW3Mx1Xu5xv/9wD/9wD/
+        9wD99QLLxla+uW6+uW6+uW6+uW6+uW6/umz48Av/9wD/9wD/9wDp4iXAu2m+uW6+uW6+uW6+uWzb1Dz9
+        9QH+9gD89AT/9wD/9wDi2zG+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW3l3iv/9wD/9wD/9wDx6Re9uW2+uW6+uW6+uW6+uW7PyVH/9wD/9wD/9wD27g+/umq+uW6+uW6+
+        uW6+uW6+uW6+uW7W0ET/9wD/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6/umv27g7/9wD/9wD/9wDKxVi+uW6+uW6+uW6+uW7e1zf/9wD/9wD/9wDb
+        1Ty+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7s5R//9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/
+        9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7f2Db/9wD/9wD/9wDb1D2+uW6+uW6+uW6+uW7o
+        4Cf/9wD/9wD/9wDKxVi+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Uzkf/9wD/9wD/9wDh2jK+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7UzUj/9wD/9wD/9wDi2zC+
+        uW6+uW6+uW6+uW7t5h7/9wD/9wD/9wDBvGi+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7LxVj/9wD/9wD/
+        9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7TzUn/
+        9wD/9wD/9wDi2zC+uW6+uW6+uW6+uW7u5xv/9wD/9wD+9gG9uW2+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW7e1zf/9wD/9wD/9wDa0z6+uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6/umv27g//9wD/9wD+9gDIwly+uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/
+        9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW3l3iv/9wD/9wD/9wDr5CG+uW6+uW6+uW6+uW6+uW7u
+        5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW69uW3Lxlbu5xz/9wD/9wD/9wD48AvEv2K+uW6+
+        uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/
+        9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDl3ivb1Tvb1Tvb1Tvf2Dbn4Cj17g//9wD/9wD/9wD/9wD0
+        7RHHwl2+uW6+uW6+uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD38Azc1jrAu2q+uW6+uW6+uW6+uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD78wbZ0z6/umu+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/
+        9wDf2DXTzUnTzUnTzUnW0EXf2DXx6Rf+9gD/9wD/9wDz7BLHwl2+uW6+uW6+uW6+uW6+uW6+uW6+uW7u
+        5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW7OyFP37w3/9wD/9wD58QrGwGC+uW6+uW6+
+        uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/
+        9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW7FwGD68gf/9wD/
+        9wDu5h2+uW6+uW6+uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW7e1zf/9wD/9wD/9wDKxFi+uW6+uW6+uW6+uW6+uW7u5xv/9wD/9wD99QK+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7KxFn/9wD/9wD/9wDh2jK+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW7Nx1T/9wD/9wD/9wDb1Dy+uW6+uW6+uW6+uW6+uW7Qyk/W0ETW0ETVz0W+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7CvWbW0ETW0ETW0ETLxVe+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/
+        9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7LxVf/9wD/9wD/9wDg2jO+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Vz0b/9wD/9wD/9wDc1jq+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uWzw6Rj/9wD/
+        9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDPyVC+uW6+uW6+uW6+uW6+uW6+uW7A
+        u2jn4Cj/9wD/9wD/9wD27g++uWy+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/9wDi2zDQyk7Mx1XL
+        xlbNyFPVz0bj3C758Qn/9wD/9wD/9wD99QLOyVG+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW7Z0kD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD68gfQyk6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW7Z0kD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD78wbj3C/EvmO+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6/umrKxVjTzUna1D3g2TTj3C7l3irm3ynk3Szg2TPZ0kDNx1S/umu+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/9wD/9wD/9wDm3ym+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW727w3/9wD/
+        9wD/9wD/9wDm3ym+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+uW6+
+        uW6+uW727w3/9wD/9wD/9wD/9wDs5R/OyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLO
+        yFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLO
+        yFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLOyFLO
+        yFLOyFLOyFLOyFLOyFLOyFL48Ar/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/
+        9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wD/9wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
